@@ -7,12 +7,27 @@ The main goal is to build readble, maintainable, testable, and high-quality flut
 ✅ You can learn how to implement the architecture here: [TDD Clean Architecture for Flutter](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 ## Screenshots
+<h1 align="center">
+<img src="screenshots/print (2).png" width="240" style="margin:4px;"> 
+<img src="screenshots/print (5).png" width="240" style="margin:4px;"> 
+<img src="screenshots/print (1).png" width="240" style="margin:4px;"> 
+<img src="screenshots/print (4).png" width="240" style="margin:4px;"> 
+<img src="screenshots/print (8).png" width="240" style="margin:4px;"> 
+ </h1>
+ 
+ ### Table of content
 
-<img src="screenshots/print (2).png" width="240px" style="margin:10px;"> 
-<img src="screenshots/print (5).png" width="240px" style="margin:10px;"> 
-<img src="screenshots/print (1).png" width="240px" style="margin:10px;"> 
-<img src="screenshots/print (4).png" width="240px" style="margin:10px;"> 
-<img src="screenshots/print (8).png" width="240px" style="margin:10px;"> 
+<!--ts-->
+
+- [Technologies](#tecchnologies)
+- [Architecture](#architecture)
+- [Mobile App](#mobile app)
+- [back-end](#back-end)
+- [Features](#features)
+- [Author](#author)
+- [Requirements](#requirements)
+- [Runnig](#runnig)
+- <!--te-->
 
 ### Technologies
 - [GetX](https://pub.dev/packages/get), 
@@ -32,13 +47,32 @@ The main goal is to build readble, maintainable, testable, and high-quality flut
 - **imdb API** 
 
 ### Features
-- ✅ Serch Movie, Serie or TV show by title or episode
-- 🚧 Play trailers
-- 🚧 User account
-- 🚧 Sync data
-- 🚧 Social media authentication
-- 🚧 Store user preferences locally
+- [x] Serch Movie, Serie or TV show by title or episode
+- [ ] Play trailers
+- [ ] User account
+- [ ] Sync data
+- [ ] Social media authentication
+- [ ] Store user preferences locally
 
 
 ### Author 👨🏽‍💻
 -   **Augusto da Silva** - [Twitter](https://twitter.com/carllos_4)
+
+
+### Requirements
+
+Before you start, you need to install the following tools:
+[Flutter SDK](https://github.com/flutter/flutter), [Android Studio](https://developer.android.com/studio/index.html#downloads). You might wanna have a good text editor like [VSCode](https://code.visualstudio.com/)
+
+### Running
+
+```bash
+ # Clone this repo
+$ git clone <https://github.com/augusto-carlos/insound>
+
+# Change directory to the repository folder using terminal/cmd
+$ cd insound
+
+# Run the app with flutter
+$ flutter run
+```
