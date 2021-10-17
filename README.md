@@ -1,6 +1,6 @@
 # inWatch
 
-Just a clean architecture app, to get movie, series and TV show informations and trailers, made with [Getx](https://pub.dev/packages/get), [omdb API](http://www.omdbapi.com/) and Flutter sdk.
+Just a clean architecture app, to get trailers and informations of movies, series and TV shows, made with [Getx](https://pub.dev/packages/get), [omdb API](http://www.omdbapi.com/) and Flutter sdk.
 
 The main goal is to build readble, maintainable, testable, and high-quality flutter app using test-driven-design styled architecture (Inspired by [Reso Coder](https://resocoder.com/)).
 
@@ -21,7 +21,7 @@ The main goal is to build readble, maintainable, testable, and high-quality flut
 
 - [Technologies](#tecchnologies)
 - [Architecture](#architecture)
-- [Mobile App](#mobile app)
+- [Mobile App](#mobileapp)
 - [back-end](#back-end)
 - [Features](#features)
 - [Author](#author)
