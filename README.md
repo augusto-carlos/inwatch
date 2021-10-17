@@ -12,7 +12,8 @@ The main goal is to build readble, maintainable, testable, and high-quality flut
 <img src="screenshots/print (5).png" width="240px" style="margin:10px;"> 
 <img src="screenshots/print (1).png" width="240px" style="margin:10px;"> 
 <img src="screenshots/print (4).png" width="240px" style="margin:10px;"> 
-<img src="screenshots/print (8).png" width="240px" style="margin:10px;"> 
+<img src="screenshots/print (3).png" width="240px" style="margin:10px;"> 
+<img src="screenshots/print (6).png" width="240px" style="margin:10px;"> 
 
 ### Technologies
 - [GetX](https://pub.dev/packages/get), 

@@ -67,12 +67,6 @@ class MovieModel {
     country = json['Country'];
     awards = json['Awards'];
     poster = json['Poster'];
-    if (json['Ratings'] != null) {
-      List<Ratings> ratings = [];
-      json['Ratings'].forEach((v) {
-        ratings.add(new Ratings.fromJson(v));
-      });
-    }
     metascore = json['Metascore'];
     imdbRating = json['imdbRating'];
     imdbVotes = json['imdbVotes'];
@@ -83,6 +77,12 @@ class MovieModel {
     production = json['Production'];
     website = json['Website'];
     response = json['Response'];
+    if (json['Ratings'] != null) {
+      List<Ratings> ratings = [];
+      json['Ratings'].forEach((v) {
+        ratings.add(new Ratings.fromJson(v));
+      });
+    }
   }
 
   Map<String, dynamic> toJson() {
@@ -126,8 +126,9 @@ class Ratings {
 
   factory Ratings.fromJson(Map<String, dynamic> json) {
     return Ratings(
-        source: json['Source'] ?? json['Source'],
-        value: json['Value'] ?? json['Value']);
+      source: json['Source'] ?? json['Source'],
+      value: json['Value'] ?? json['Value'],
+    );
   }
 
   Map<String, dynamic> toJson() {
