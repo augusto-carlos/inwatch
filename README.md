@@ -68,10 +68,10 @@ Before you start, you need to install the following tools:
 
 ```bash
  # Clone this repo
-$ git clone <https://github.com/augusto-carlos/insound>
+$ git clone <https://github.com/augusto-carlos/inwatch>
 
 # Change directory to the repository folder using terminal/cmd
-$ cd insound
+$ cd inwatch
 
 # Run the app with flutter
 $ flutter run
